@@ -1,0 +1,6 @@
+framework module Pods_MindGame {
+  umbrella header "Pods-MindGame-umbrella.h"
+
+  export *
+  module * { export * }
+}

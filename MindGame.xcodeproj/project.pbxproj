@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1720194D9093CA7B54E863C1 /* Pods_MindGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111F7191185E039825A5F412 /* Pods_MindGame.framework */; };
+		A26E4B301EE5363400229ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B131EE5363400229ADC /* AppDelegate.swift */; };
+		A26E4B311EE5363400229ADC /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B141EE5363400229ADC /* AppDependencies.swift */; };
+		A26E4B351EE5363400229ADC /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B1D1EE5363400229ADC /* RootWireframe.swift */; };
+		A26E4B371EE5363400229ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26E4B2B1EE5363400229ADC /* Assets.xcassets */; };
+		A26E4B381EE5363400229ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26E4B2C1EE5363400229ADC /* LaunchScreen.storyboard */; };
+		A26E4B391EE5363400229ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26E4B2D1EE5363400229ADC /* Main.storyboard */; };
+		A26E4B3A1EE5363400229ADC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A26E4B2F1EE5363400229ADC /* Info.plist */; };
+		A26E4B3C1EE536AB00229ADC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B3B1EE536AB00229ADC /* NetworkManager.swift */; };
+		A26E4B3E1EE5374B00229ADC /* MTAppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B3D1EE5374B00229ADC /* MTAppError.swift */; };
+		A26E4B401EE539DD00229ADC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B3F1EE539DD00229ADC /* ListViewController.swift */; };
+		A26E4B421EE53A0600229ADC /* ListViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B411EE53A0600229ADC /* ListViewInterface.swift */; };
+		A26E4B441EE53A1000229ADC /* ListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B431EE53A1000229ADC /* ListWireframe.swift */; };
+		A26E4B461EE53A2000229ADC /* ListModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B451EE53A2000229ADC /* ListModuleInterface.swift */; };
+		A26E4B481EE53A2C00229ADC /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B471EE53A2C00229ADC /* ListInteractor.swift */; };
+		A26E4B4A1EE53A3700229ADC /* ListInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B491EE53A3700229ADC /* ListInteractorIO.swift */; };
+		A26E4B4C1EE53B4C00229ADC /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B4B1EE53B4C00229ADC /* ListPresenter.swift */; };
+		A26E4B4E1EE5415A00229ADC /* MTExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B4D1EE5415A00229ADC /* MTExtentions.swift */; };
+		A26E4B501EE5416D00229ADC /* MindGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B4F1EE5416D00229ADC /* MindGame.swift */; };
+		A26E4B521EE5770800229ADC /* MindGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E4B511EE5770800229ADC /* MindGameCell.swift */; };
+		A28348601EE1766400093B6E /* MindGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A283485F1EE1766400093B6E /* MindGameTests.swift */; };
+		A283486B1EE1766400093B6E /* MindGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A283486A1EE1766400093B6E /* MindGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A283485C1EE1766400093B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A283483F1EE1766300093B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28348461EE1766300093B6E;
+			remoteInfo = MindGame;
+		};
+		A28348671EE1766400093B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A283483F1EE1766300093B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28348461EE1766300093B6E;
+			remoteInfo = MindGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111F7191185E039825A5F412 /* Pods_MindGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		410CA03198A03DAEFABAAF69 /* Pods-MindGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindGame/Pods-MindGame.release.xcconfig"; sourceTree = "<group>"; };
+		9829E20071683E65D4BB6C60 /* Pods-MindGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindGame/Pods-MindGame.debug.xcconfig"; sourceTree = "<group>"; };
+		A26E4B131EE5363400229ADC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A26E4B141EE5363400229ADC /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		A26E4B1D1EE5363400229ADC /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		A26E4B2B1EE5363400229ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26E4B2C1EE5363400229ADC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A26E4B2D1EE5363400229ADC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A26E4B2F1EE5363400229ADC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26E4B3B1EE536AB00229ADC /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A26E4B3D1EE5374B00229ADC /* MTAppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAppError.swift; sourceTree = "<group>"; };
+		A26E4B3F1EE539DD00229ADC /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A26E4B411EE53A0600229ADC /* ListViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewInterface.swift; sourceTree = "<group>"; };
+		A26E4B431EE53A1000229ADC /* ListWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListWireframe.swift; sourceTree = "<group>"; };
+		A26E4B451EE53A2000229ADC /* ListModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModuleInterface.swift; sourceTree = "<group>"; };
+		A26E4B471EE53A2C00229ADC /* ListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		A26E4B491EE53A3700229ADC /* ListInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInteractorIO.swift; sourceTree = "<group>"; };
+		A26E4B4B1EE53B4C00229ADC /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		A26E4B4D1EE5415A00229ADC /* MTExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTExtentions.swift; sourceTree = "<group>"; };
+		A26E4B4F1EE5416D00229ADC /* MindGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindGame.swift; sourceTree = "<group>"; };
+		A26E4B511EE5770800229ADC /* MindGameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindGameCell.swift; sourceTree = "<group>"; };
+		A28348471EE1766300093B6E /* MindGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A283485B1EE1766400093B6E /* MindGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A283485F1EE1766400093B6E /* MindGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindGameTests.swift; sourceTree = "<group>"; };
+		A28348611EE1766400093B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28348661EE1766400093B6E /* MindGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A283486A1EE1766400093B6E /* MindGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindGameUITests.swift; sourceTree = "<group>"; };
+		A283486C1EE1766400093B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28348441EE1766300093B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1720194D9093CA7B54E863C1 /* Pods_MindGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28348581EE1766400093B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28348631EE1766400093B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89B8E35CA0D21612A3BB53F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9829E20071683E65D4BB6C60 /* Pods-MindGame.debug.xcconfig */,
+				410CA03198A03DAEFABAAF69 /* Pods-MindGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A26E4B121EE5363400229ADC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B131EE5363400229ADC /* AppDelegate.swift */,
+				A26E4B141EE5363400229ADC /* AppDependencies.swift */,
+				A26E4B151EE5363400229ADC /* Common */,
+				A26E4B1E1EE5363400229ADC /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A26E4B151EE5363400229ADC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B161EE5363400229ADC /* Extentions */,
+				A26E4B171EE5363400229ADC /* Model */,
+				A26E4B181EE5363400229ADC /* Network */,
+				A26E4B1C1EE5363400229ADC /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A26E4B161EE5363400229ADC /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B4D1EE5415A00229ADC /* MTExtentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		A26E4B171EE5363400229ADC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B4F1EE5416D00229ADC /* MindGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A26E4B181EE5363400229ADC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B3B1EE536AB00229ADC /* NetworkManager.swift */,
+				A26E4B3D1EE5374B00229ADC /* MTAppError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A26E4B1C1EE5363400229ADC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B1D1EE5363400229ADC /* RootWireframe.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A26E4B1E1EE5363400229ADC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B1F1EE5363400229ADC /* List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A26E4B1F1EE5363400229ADC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B201EE5363400229ADC /* Application Logic */,
+				A26E4B241EE5363400229ADC /* Module Interface */,
+				A26E4B261EE5363400229ADC /* User Interface */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		A26E4B201EE5363400229ADC /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B211EE5363400229ADC /* Interactor */,
+				A26E4B221EE5363400229ADC /* Manager */,
+				A26E4B231EE5363400229ADC /* Model */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		A26E4B211EE5363400229ADC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B471EE53A2C00229ADC /* ListInteractor.swift */,
+				A26E4B491EE53A3700229ADC /* ListInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A26E4B221EE5363400229ADC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A26E4B231EE5363400229ADC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A26E4B241EE5363400229ADC /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B451EE53A2000229ADC /* ListModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		A26E4B261EE5363400229ADC /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B271EE5363400229ADC /* Presenter */,
+				A26E4B281EE5363400229ADC /* View */,
+				A26E4B291EE5363400229ADC /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		A26E4B271EE5363400229ADC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B4B1EE53B4C00229ADC /* ListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A26E4B281EE5363400229ADC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B3F1EE539DD00229ADC /* ListViewController.swift */,
+				A26E4B411EE53A0600229ADC /* ListViewInterface.swift */,
+				A26E4B511EE5770800229ADC /* MindGameCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A26E4B291EE5363400229ADC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B431EE53A1000229ADC /* ListWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		A26E4B2A1EE5363400229ADC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B2B1EE5363400229ADC /* Assets.xcassets */,
+				A26E4B2C1EE5363400229ADC /* LaunchScreen.storyboard */,
+				A26E4B2D1EE5363400229ADC /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A26E4B2E1EE5363400229ADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B2F1EE5363400229ADC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A283483E1EE1766300093B6E = {
+			isa = PBXGroup;
+			children = (
+				A28348491EE1766300093B6E /* MindGame */,
+				A283485E1EE1766400093B6E /* MindGameTests */,
+				A28348691EE1766400093B6E /* MindGameUITests */,
+				A28348481EE1766300093B6E /* Products */,
+				89B8E35CA0D21612A3BB53F5 /* Pods */,
+				E96840DA2DCC0061AF99CCDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A28348481EE1766300093B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28348471EE1766300093B6E /* MindGame.app */,
+				A283485B1EE1766400093B6E /* MindGameTests.xctest */,
+				A28348661EE1766400093B6E /* MindGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28348491EE1766300093B6E /* MindGame */ = {
+			isa = PBXGroup;
+			children = (
+				A26E4B121EE5363400229ADC /* Classes */,
+				A26E4B2A1EE5363400229ADC /* Resources */,
+				A26E4B2E1EE5363400229ADC /* Supporting Files */,
+			);
+			path = MindGame;
+			sourceTree = "<group>";
+		};
+		A283485E1EE1766400093B6E /* MindGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A283485F1EE1766400093B6E /* MindGameTests.swift */,
+				A28348611EE1766400093B6E /* Info.plist */,
+			);
+			path = MindGameTests;
+			sourceTree = "<group>";
+		};
+		A28348691EE1766400093B6E /* MindGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A283486A1EE1766400093B6E /* MindGameUITests.swift */,
+				A283486C1EE1766400093B6E /* Info.plist */,
+			);
+			path = MindGameUITests;
+			sourceTree = "<group>";
+		};
+		E96840DA2DCC0061AF99CCDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				111F7191185E039825A5F412 /* Pods_MindGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28348461EE1766300093B6E /* MindGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A283486F1EE1766400093B6E /* Build configuration list for PBXNativeTarget "MindGame" */;
+			buildPhases = (
+				09BB9F9093818F04BDDA3BBB /* [CP] Check Pods Manifest.lock */,
+				A28348431EE1766300093B6E /* Sources */,
+				A28348441EE1766300093B6E /* Frameworks */,
+				A28348451EE1766300093B6E /* Resources */,
+				9A0E9AC54CDFAD27A9854BC6 /* [CP] Embed Pods Frameworks */,
+				C6582A3D72E403FAE4945D8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindGame;
+			productName = MindGame;
+			productReference = A28348471EE1766300093B6E /* MindGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A283485A1EE1766400093B6E /* MindGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28348721EE1766400093B6E /* Build configuration list for PBXNativeTarget "MindGameTests" */;
+			buildPhases = (
+				A28348571EE1766400093B6E /* Sources */,
+				A28348581EE1766400093B6E /* Frameworks */,
+				A28348591EE1766400093B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A283485D1EE1766400093B6E /* PBXTargetDependency */,
+			);
+			name = MindGameTests;
+			productName = MindGameTests;
+			productReference = A283485B1EE1766400093B6E /* MindGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A28348651EE1766400093B6E /* MindGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28348751EE1766400093B6E /* Build configuration list for PBXNativeTarget "MindGameUITests" */;
+			buildPhases = (
+				A28348621EE1766400093B6E /* Sources */,
+				A28348631EE1766400093B6E /* Frameworks */,
+				A28348641EE1766400093B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28348681EE1766400093B6E /* PBXTargetDependency */,
+			);
+			name = MindGameUITests;
+			productName = MindGameUITests;
+			productReference = A28348661EE1766400093B6E /* MindGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A283483F1EE1766300093B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Myntra;
+				TargetAttributes = {
+					A28348461EE1766300093B6E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					A283485A1EE1766400093B6E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A28348461EE1766300093B6E;
+					};
+					A28348651EE1766400093B6E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A28348461EE1766300093B6E;
+					};
+				};
+			};
+			buildConfigurationList = A28348421EE1766300093B6E /* Build configuration list for PBXProject "MindGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A283483E1EE1766300093B6E;
+			productRefGroup = A28348481EE1766300093B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28348461EE1766300093B6E /* MindGame */,
+				A283485A1EE1766400093B6E /* MindGameTests */,
+				A28348651EE1766400093B6E /* MindGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28348451EE1766300093B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26E4B3A1EE5363400229ADC /* Info.plist in Resources */,
+				A26E4B391EE5363400229ADC /* Main.storyboard in Resources */,
+				A26E4B371EE5363400229ADC /* Assets.xcassets in Resources */,
+				A26E4B381EE5363400229ADC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28348591EE1766400093B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28348641EE1766400093B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09BB9F9093818F04BDDA3BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0E9AC54CDFAD27A9854BC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindGame/Pods-MindGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6582A3D72E403FAE4945D8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindGame/Pods-MindGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28348431EE1766300093B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26E4B481EE53A2C00229ADC /* ListInteractor.swift in Sources */,
+				A26E4B501EE5416D00229ADC /* MindGame.swift in Sources */,
+				A26E4B311EE5363400229ADC /* AppDependencies.swift in Sources */,
+				A26E4B521EE5770800229ADC /* MindGameCell.swift in Sources */,
+				A26E4B421EE53A0600229ADC /* ListViewInterface.swift in Sources */,
+				A26E4B3E1EE5374B00229ADC /* MTAppError.swift in Sources */,
+				A26E4B4E1EE5415A00229ADC /* MTExtentions.swift in Sources */,
+				A26E4B461EE53A2000229ADC /* ListModuleInterface.swift in Sources */,
+				A26E4B401EE539DD00229ADC /* ListViewController.swift in Sources */,
+				A26E4B441EE53A1000229ADC /* ListWireframe.swift in Sources */,
+				A26E4B351EE5363400229ADC /* RootWireframe.swift in Sources */,
+				A26E4B3C1EE536AB00229ADC /* NetworkManager.swift in Sources */,
+				A26E4B301EE5363400229ADC /* AppDelegate.swift in Sources */,
+				A26E4B4C1EE53B4C00229ADC /* ListPresenter.swift in Sources */,
+				A26E4B4A1EE53A3700229ADC /* ListInteractorIO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28348571EE1766400093B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28348601EE1766400093B6E /* MindGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28348621EE1766400093B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A283486B1EE1766400093B6E /* MindGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A283485D1EE1766400093B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28348461EE1766300093B6E /* MindGame */;
+			targetProxy = A283485C1EE1766400093B6E /* PBXContainerItemProxy */;
+		};
+		A28348681EE1766400093B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28348461EE1766300093B6E /* MindGame */;
+			targetProxy = A28348671EE1766400093B6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A283486D1EE1766400093B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A283486E1EE1766400093B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28348701EE1766400093B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9829E20071683E65D4BB6C60 /* Pods-MindGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MindGame/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myntra.mindgame.MindGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A28348711EE1766400093B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410CA03198A03DAEFABAAF69 /* Pods-MindGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MindGame/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myntra.mindgame.MindGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A28348731EE1766400093B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MindGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myntra.mindgame.MindGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindGame.app/MindGame";
+			};
+			name = Debug;
+		};
+		A28348741EE1766400093B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MindGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myntra.mindgame.MindGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindGame.app/MindGame";
+			};
+			name = Release;
+		};
+		A28348761EE1766400093B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MindGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myntra.mindgame.MindGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MindGame;
+			};
+			name = Debug;
+		};
+		A28348771EE1766400093B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MindGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myntra.mindgame.MindGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MindGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28348421EE1766300093B6E /* Build configuration list for PBXProject "MindGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A283486D1EE1766400093B6E /* Debug */,
+				A283486E1EE1766400093B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A283486F1EE1766400093B6E /* Build configuration list for PBXNativeTarget "MindGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28348701EE1766400093B6E /* Debug */,
+				A28348711EE1766400093B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28348721EE1766400093B6E /* Build configuration list for PBXNativeTarget "MindGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28348731EE1766400093B6E /* Debug */,
+				A28348741EE1766400093B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28348751EE1766400093B6E /* Build configuration list for PBXNativeTarget "MindGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28348761EE1766400093B6E /* Debug */,
+				A28348771EE1766400093B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A283483F1EE1766300093B6E /* Project object */;
+}
